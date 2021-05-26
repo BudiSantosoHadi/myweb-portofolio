@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>my-portofolio</title>
+        <meta charset="utf-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="css/script-01.css">
+        <link rel="stylesheet" href="responsive/script-responsive.css">
+        <link rel="stylesheet" href ="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    
+    </head>
+    <body>
+        <header>
+            <div class="title-left-head">
+                <h3>Portofolio</h3>
+            </div>
+            <div class="menu-darkmode">
+                <div class="darkmode">
+                    <label href= "#" onclick="myFunction()"><i class="fa fa-moon"></i></label>
+                </div>
+            </div>
+            <div class="menu-right">
+                <div class="menu">
+                    <ul>
+                        <a href="word.html">Home</a>
+                        <a href="portofolio.html">Portofolio</a>
+                        <a href="about-me.html">About-me</a>
+                    </ul>
+                </div>
+            </div>
+        </header>
+            <div id= "sidebar">
+            <div class= "menu-sidebar">
+                <a href= "word.html" class= "menu-home">Home</a>
+                <a href= "portofolio.html" class= "menu-portofolio">Portofolio</a>
+                <a href= "about-me.html" class= "menu-aboutme">about-me</a>
+            </div>
+        </div>
+        <section class="banner">
+			<div class="container">
+				<div class="banner-left">
+					<img src="image/myjad.png">
+                </div>
+			</div> 
+             <br>
+                <div class="containner">
+                    <h2>Hai...<br>
+						Iam'[<span class="efek-ngetik"></span>]</h2>
+                        <h2>IwasBorn'Semarang,18 August 2002</h2>
+					<h2>Welcome in' website portfolio saya!</h2>
+                </div>
+                <br>
+                <br>
+                <section class="banner03"></section>
+                <section class="banner02">
+                    <br>
+                        <div class="contact-conts">
+                            <form action="https://formspree.io/f/mleabeee" target="_blank" id="my-form" method="POST">
+                                <h3>Form Contact</h3>
+                                <div class="grup-form">
+                                    <label for="FirstName"> First Name</label>
+                                    <input type="text" id="firstname" name="First name" placeholder="first name">
+                                </div>
+                    
+                                <div class="grup-form">   
+                                    <label for="LastName"> Last Name</label>
+                                    <input type="text" id="lastname" name="Last name" placeholder="last name">
+                                </div>
+    
+                                <div class="grup-form">   
+                                    <label for="LastName"> Email </label>
+                                    <input type="email" id="email" name="Email" placeholder="example@gmail.com">
+                                </div>
+    
+                                <div class="grup-form">   
+                                    <label for="Message"> Message </label>
+                                    <textarea name="Message" id="message" cols="30" rows="10" placeholder="massage contact..."></textarea>
+                                </div>
+                                <div class="grup-form">
+                                    <button type="submit" onclick="alert('Kirim!')">Submit</button>   
+                                </div>
+                            </form>
+                        </div>
+                        <br>
+                        <section class="banner03"></section>
+                </section>
+		</section>
+        </div>
+        <footer>
+            <div class="container-footer">
+                <a href="https://instagram.com/mr.atfn.h?igshid=u59axllybypy" target="_blank">
+                    <h3> Direct@by;atifnaufal@gmail.com</h3>
+                </a>
+            </div>
+        </footer>
+             <!-- <script src= "js/animated.js"></script> -->
+             <script src="nimation/script.js"></script>
+             <script>
+                 function myFunction() {
+		    var element = document.body;
+		    element.classList.toggle("dark-mode");
+	          }
+             </script>
+    </body>
+</html>

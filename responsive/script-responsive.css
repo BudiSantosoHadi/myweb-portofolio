@@ -1,0 +1,21 @@
+@media all and (max-width: 1000px){
+
+
+}
+@media all and (max-width: 670px){
+
+    .menu ul{
+        display: none;
+    }
+    #sidebar{
+        display: block;
+    }
+    .banner img {
+        width: 160px;
+    }
+    .big-banner{
+    margin: 20px;
+    width: auto;
+    height: auto;
+    }
+}
